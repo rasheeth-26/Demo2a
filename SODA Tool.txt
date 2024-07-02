@@ -1,0 +1,25 @@
+
+
+
+Data build transformation tool & DB Cloud:
+  Data Build Tool (DBT) is a popular open-source tool used for transforming and managing data in data warehouses. It simplifies the data engineering process,
+  making it easier to create data pipelines and data models
+
+soda tool:
+     1.Soda is a tool that enables Data Engineers, Data Scientists, and Data Analysts to test data for quality where and when they need to.
+     2.it is a command line lang
+        1.Data Freshness
+	2.Completeness
+        3.Duplicates
+        4.Transformation Issues
+        5.Validity
+
+soda cloud:
+     Soda Cloud” refers to a platform that helps you manage data quality and reliability.
+
+soda library
+     Soda Library is Python library and CLI tool that enables Data Engineers to test data for quality where and when they need to.
+Soda Agent is essentially Soda Library functionality that you deploy in a Kubernetes cluster in your own cloud services provider environment. When you deploy an agent, you also deploy two types of workloads in your Kubernetes cluster from a Docker image:
+
+a Soda Agent Orchestrator which creates Kubernetes Jobs to trigger scheduled and on-demand scans of data
+a Soda Agent Scan Launcher which wraps around Soda Library, the tool which performs the scan itself
